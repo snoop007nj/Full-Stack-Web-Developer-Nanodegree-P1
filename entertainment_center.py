@@ -3,6 +3,8 @@
 import media
 import fresh_tomatoes
 
+"""Declaring 6 new instances of class Movie"""
+
 toyStory = media.Movie("Toy Story",
 			"A story of a boy and hist toys that come to life",
 			"http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
@@ -33,12 +35,9 @@ hunger_games = media.Movie("Hunger Games",
 			"http://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
 			"https://www.youtube.com/watch?v=PbA63a7H0bo")
 
+#list of movies
 movies = [toyStory, avatar, school_of_rock, ratatouille, midnight_in_paris, hunger_games]
 
+#display content in html
 fresh_tomatoes.open_movies_page(movies)
 
-#print(media.Movie.VALID_RATINGS)
-
-#print(media.Movie.__doc__)
-#print(media.Movie.__name__)
-#print(media.Movie.__module__)
